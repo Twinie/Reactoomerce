@@ -1,0 +1,43 @@
+.row2-dms {
+  background-image: url(/images/macbook-image.png);
+  height: 500px;
+  border-radius: 6px;
+  background-repeat: no-repeat;
+
+  .main-col {
+    width: 380px;
+    padding: 0;
+    margin-right: 265px;
+    letter-spacing: -1px;
+    .apple {
+      line-height: 60px;
+    }
+    .macbook-text {
+      color: #5c8194;
+      font-size: $font-size-para;
+    }
+    button {
+      width: 175px;
+      height: 54px;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .row2-dms {
+    .main-col {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .row2-dms {
+    .main-col {
+      margin-left: 0;
+      margin-right: 265px;
+    }
+  }
+}

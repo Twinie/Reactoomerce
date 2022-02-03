@@ -1,0 +1,36 @@
+.row9-dms {
+  margin-top: 75px;
+}
+
+@media (min-width: 375px) {
+  .info {
+    padding-left: 0;
+  }
+  .helping-links {
+    padding-left: 0;
+  }
+  .service {
+    padding-left: 0;
+  }
+  .col-3-two {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .col-3-two {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .info {
+    padding-left: 65px;
+  }
+  .helping-links {
+    padding-left: 35px;
+  }
+  .service {
+    padding-left: 22px;
+  }
+}

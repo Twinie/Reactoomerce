@@ -1,0 +1,33 @@
+.row3-col1 {
+  background-image: url(/images/shoes.png);
+}
+.row3-col2 {
+  background-image: url(/images/bag.png);
+}
+.row3-col3 {
+  background-image: url(/images/women\ clothing.png);
+}
+.row3-col1,
+.row3-col2,
+.row3-col3 {
+  max-width: 450px;
+  height: 282px;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+
+  .content-holder {
+    margin-top: 82px;
+    margin-left: 27px;
+    width: 145px;
+    h3 {
+      line-height: 16px;
+    }
+  }
+  .content-holder1 {
+    margin-top: 82px;
+    margin-left: 7%;
+    h3 {
+      line-height: 16px;
+    }
+  }
+}

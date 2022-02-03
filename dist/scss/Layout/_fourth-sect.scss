@@ -1,0 +1,53 @@
+.col-3-one {
+  padding: 20px 0;
+  background-color: #f6f9fb;
+  border-radius: 6px;
+  width: 330px;
+  height: 332px;
+  .save {
+    height: 22px;
+    width: 84px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 14px;
+  }
+  .content-holder {
+    padding: 22px 30px;
+    .caption {
+      font-size: 15px;
+      color: $font-color;
+    }
+    .price {
+      font-size: 12px;
+      text-decoration: line-through;
+      color: $font-color;
+    }
+    .discounted-price {
+      font-size: 16px;
+      line-height: 4px;
+    }
+    .laptop {
+      width: 209px;
+      height: 130px;
+      margin-bottom: 20px;
+    }
+    .watch {
+      width: 145px;
+      height: 170px;
+      margin-bottom: 12px;
+    }
+    .phone {
+      width: 85px;
+      height: 180px;
+      margin-bottom: 4px;
+    }
+    .backpack {
+      height: 145px;
+      width: 196px;
+      margin-bottom: 22px;
+    }
+    .hoodie {
+      margin-top: -8px;
+    }
+  }
+}
